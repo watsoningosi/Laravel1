@@ -39,23 +39,23 @@
 
                 <div class="navbar-collapse collapse" id="navbarContent">
                     <ul class="navbar-nav ml-auto pt-3 pt-lg-0">
-                        <li class="nav-item active">
-                            <a href="/" class="nav-link">Home</a>
+                        <li class="{{ Request::path() === '/' ? 'active' : '' }}">
+                            <a href="/" accesskey="1" class="nav-link">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="about" class="nav-link">About</a>
+                        <li class="{{ Request::path() === 'about' ? 'active' : '' }}">
+                            <a href="about" accesskey="2" class="nav-link">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="services" class="nav-link">Services</a>
+                        <li class="{{ Request::path() === 'services' ? 'active' : '' }}">
+                            <a href="services" accesskey="3" class="nav-link">Services</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="project" class="nav-link">Projects</a>
+                        <li class="{{ Request::path() === 'project' ? 'active' : '' }}">
+                            <a href="project" accesskey="4" class="nav-link">Projects</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="blog" class="nav-link">News</a>
+                        <li class="{{ Request::path() === 'blog' ? 'active' : '' }}">
+                            <a href="blog" accesskey="5" class="nav-link">News</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="contact" class="nav-link">Contact</a>
+                        <li class="{{ Request::path() === 'contact' ? 'active' : '' }}">
+                            <a href="contact" accesskey="6" class="nav-link">Contact</a>
                         </li>
                     </ul>
                 </div>
