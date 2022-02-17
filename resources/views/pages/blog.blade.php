@@ -24,212 +24,22 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
                         <div class="row">
-                            <div class="col-md-4 py-3">
-                                <div class="card-blog">
-                                    <div class="header">
-                                        <div class="avatar">
-                                            <img src="../assets/img/person/person_1.jpg" alt="">
-                                        </div>
-                                        <div class="entry-footer">
-                                            <div class="post-author">Sam Newman</div>
-                                            <a href="#" class="post-date">23 Apr 2020</a>
-                                        </div>
-                                    </div>
-                                    <div class="body">
-                                        <div class="post-title"><a href="single">What is Business
-                                                Management?</a></div>
-                                        <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
-                                            elit.</div>
-                                    </div>
-                                    <div class="footer">
-                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="col-md-4 py-3">
-                                <div class="card-blog">
-                                    <div class="header">
-                                        <div class="avatar">
-                                            <img src="../assets/img/person/person_1.jpg" alt="">
+                            @foreach ($articles as $article)
+                                <div class="col-md-4 py-3">
+                                    <div class="card-blog">
+                                        <div class="avatar1">
+                                            <a href="/articles/{{ $article->id }}">
+                                                <img src="../assets/img/teams/team_1.jpg" class="img-responsive" alt="">
+                                            </a>
                                         </div>
-                                        <div class="entry-footer">
-                                            <div class="post-author">Sam Newman</div>
-                                            <a href="#" class="post-date">23 Apr 2020</a>
+                                        <div class="body">
+                                            <div class="post-title"><a href="single">{{ $article->title }}</a></div>
+                                            <div class="post-excerpt">{{ $article->exerpt }}</div>
                                         </div>
-                                    </div>
-                                    <div class="body">
-                                        <div class="post-title"><a href="single">What is Business
-                                                Management?</a></div>
-                                        <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
-                                            elit.</div>
-                                    </div>
-                                    <div class="footer">
-                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="col-md-4 py-3">
-                                <div class="card-blog">
-                                    <div class="header">
-                                        <div class="avatar">
-                                            <img src="../assets/img/person/person_1.jpg" alt="">
-                                        </div>
-                                        <div class="entry-footer">
-                                            <div class="post-author">Sam Newman</div>
-                                            <a href="#" class="post-date">23 Apr 2020</a>
-                                        </div>
-                                    </div>
-                                    <div class="body">
-                                        <div class="post-title"><a href="single">What is Business
-                                                Management?</a></div>
-                                        <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
-                                            elit.</div>
-                                    </div>
-                                    <div class="footer">
-                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 py-3">
-                                <div class="card-blog">
-                                    <div class="header">
-                                        <div class="avatar">
-                                            <img src="../assets/img/person/person_1.jpg" alt="">
-                                        </div>
-                                        <div class="entry-footer">
-                                            <div class="post-author">Sam Newman</div>
-                                            <a href="#" class="post-date">23 Apr 2020</a>
-                                        </div>
-                                    </div>
-                                    <div class="body">
-                                        <div class="post-title"><a href="single">What is Business
-                                                Management?</a></div>
-                                        <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
-                                            elit.</div>
-                                    </div>
-                                    <div class="footer">
-                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 py-3">
-                                <div class="card-blog">
-                                    <div class="header">
-                                        <div class="avatar">
-                                            <img src="../assets/img/person/person_1.jpg" alt="">
-                                        </div>
-                                        <div class="entry-footer">
-                                            <div class="post-author">Sam Newman</div>
-                                            <a href="#" class="post-date">23 Apr 2020</a>
-                                        </div>
-                                    </div>
-                                    <div class="body">
-                                        <div class="post-title"><a href="single">What is Business
-                                                Management?</a></div>
-                                        <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
-                                            elit.</div>
-                                    </div>
-                                    <div class="footer">
-                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 py-3">
-                                <div class="card-blog">
-                                    <div class="header">
-                                        <div class="avatar">
-                                            <img src="../assets/img/person/person_1.jpg" alt="">
-                                        </div>
-                                        <div class="entry-footer">
-                                            <div class="post-author">Sam Newman</div>
-                                            <a href="#" class="post-date">23 Apr 2020</a>
-                                        </div>
-                                    </div>
-                                    <div class="body">
-                                        <div class="post-title"><a href="single">What is Business
-                                                Management?</a></div>
-                                        <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
-                                            elit.</div>
-                                    </div>
-                                    <div class="footer">
-                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 py-3">
-                                <div class="card-blog">
-                                    <div class="header">
-                                        <div class="avatar">
-                                            <img src="../assets/img/person/person_1.jpg" alt="">
-                                        </div>
-                                        <div class="entry-footer">
-                                            <div class="post-author">Sam Newman</div>
-                                            <a href="#" class="post-date">23 Apr 2020</a>
-                                        </div>
-                                    </div>
-                                    <div class="body">
-                                        <div class="post-title"><a href="single">What is Business
-                                                Management?</a></div>
-                                        <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
-                                            elit.</div>
-                                    </div>
-                                    <div class="footer">
-                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 py-3">
-                                <div class="card-blog">
-                                    <div class="header">
-                                        <div class="avatar">
-                                            <img src="../assets/img/person/person_1.jpg" alt="">
-                                        </div>
-                                        <div class="entry-footer">
-                                            <div class="post-author">Sam Newman</div>
-                                            <a href="#" class="post-date">23 Apr 2020</a>
-                                        </div>
-                                    </div>
-                                    <div class="body">
-                                        <div class="post-title"><a href="single">What is Business
-                                                Management?</a></div>
-                                        <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
-                                            elit.</div>
-                                    </div>
-                                    <div class="footer">
-                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 py-3">
-                                <div class="card-blog">
-                                    <div class="header">
-                                        <div class="avatar">
-                                            <img src="../assets/img/person/person_1.jpg" alt="">
-                                        </div>
-                                        <div class="entry-footer">
-                                            <div class="post-author">Sam Newman</div>
-                                            <a href="#" class="post-date">23 Apr 2020</a>
-                                        </div>
-                                    </div>
-                                    <div class="body">
-                                        <div class="post-title"><a href="single">What is Business
-                                                Management?</a></div>
-                                        <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
-                                            elit.</div>
-                                    </div>
-                                    <div class="footer">
-                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
 
                             <div class="col-12 my-5">
                                 <nav aria-label="Page Navigation">

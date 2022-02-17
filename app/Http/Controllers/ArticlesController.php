@@ -14,4 +14,12 @@ class ArticlesController extends Controller
 
         return view('pages.show', ['article' => $article]);
     }
+
+    public function index()
+    {
+
+        $article = Article::latest()->get();
+
+        return view('pages.blog', ['article' => $article]);
+    }
 }

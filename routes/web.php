@@ -25,7 +25,10 @@ Route::get('/about', function () {
 });
 
 Route::get('/blog', function () {
-    return view('pages.blog');
+    return view('pages.blog',  [
+        'articles' => App\models\Article::all()
+
+    ]);
 });
 
 Route::get('/contact', function () {
