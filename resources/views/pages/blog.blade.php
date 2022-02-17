@@ -36,14 +36,13 @@
                                         </div>
                                     </div>
                                     <div class="body">
-                                        <div class="post-title"><a href="blog-single">What is Business
+                                        <div class="post-title"><a href="single">What is Business
                                                 Management?</a></div>
                                         <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
                                             elit.</div>
                                     </div>
                                     <div class="footer">
-                                        <a href="blog-single">Read More <span
-                                                class="mai-chevron-forward text-sm"></span></a>
+                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -60,14 +59,13 @@
                                         </div>
                                     </div>
                                     <div class="body">
-                                        <div class="post-title"><a href="blog-single">What is Business
+                                        <div class="post-title"><a href="single">What is Business
                                                 Management?</a></div>
                                         <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
                                             elit.</div>
                                     </div>
                                     <div class="footer">
-                                        <a href="blog-single">Read More <span
-                                                class="mai-chevron-forward text-sm"></span></a>
+                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -84,14 +82,13 @@
                                         </div>
                                     </div>
                                     <div class="body">
-                                        <div class="post-title"><a href="blog-single">What is Business
+                                        <div class="post-title"><a href="single">What is Business
                                                 Management?</a></div>
                                         <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
                                             elit.</div>
                                     </div>
                                     <div class="footer">
-                                        <a href="blog-single">Read More <span
-                                                class="mai-chevron-forward text-sm"></span></a>
+                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -108,14 +105,13 @@
                                         </div>
                                     </div>
                                     <div class="body">
-                                        <div class="post-title"><a href="blog-single">What is Business
+                                        <div class="post-title"><a href="single">What is Business
                                                 Management?</a></div>
                                         <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
                                             elit.</div>
                                     </div>
                                     <div class="footer">
-                                        <a href="blog-single">Read More <span
-                                                class="mai-chevron-forward text-sm"></span></a>
+                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -132,14 +128,13 @@
                                         </div>
                                     </div>
                                     <div class="body">
-                                        <div class="post-title"><a href="blog-single">What is Business
+                                        <div class="post-title"><a href="single">What is Business
                                                 Management?</a></div>
                                         <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
                                             elit.</div>
                                     </div>
                                     <div class="footer">
-                                        <a href="blog-single">Read More <span
-                                                class="mai-chevron-forward text-sm"></span></a>
+                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -156,14 +151,13 @@
                                         </div>
                                     </div>
                                     <div class="body">
-                                        <div class="post-title"><a href="blog-single">What is Business
+                                        <div class="post-title"><a href="single">What is Business
                                                 Management?</a></div>
                                         <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
                                             elit.</div>
                                     </div>
                                     <div class="footer">
-                                        <a href="blog-single">Read More <span
-                                                class="mai-chevron-forward text-sm"></span></a>
+                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -180,14 +174,13 @@
                                         </div>
                                     </div>
                                     <div class="body">
-                                        <div class="post-title"><a href="blog-single">What is Business
+                                        <div class="post-title"><a href="single">What is Business
                                                 Management?</a></div>
                                         <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
                                             elit.</div>
                                     </div>
                                     <div class="footer">
-                                        <a href="blog-single">Read More <span
-                                                class="mai-chevron-forward text-sm"></span></a>
+                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -204,14 +197,13 @@
                                         </div>
                                     </div>
                                     <div class="body">
-                                        <div class="post-title"><a href="blog-single">What is Business
+                                        <div class="post-title"><a href="single">What is Business
                                                 Management?</a></div>
                                         <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
                                             elit.</div>
                                     </div>
                                     <div class="footer">
-                                        <a href="blog-single">Read More <span
-                                                class="mai-chevron-forward text-sm"></span></a>
+                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -228,14 +220,13 @@
                                         </div>
                                     </div>
                                     <div class="body">
-                                        <div class="post-title"><a href="blog-single">What is Business
+                                        <div class="post-title"><a href="single">What is Business
                                                 Management?</a></div>
                                         <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing
                                             elit.</div>
                                     </div>
                                     <div class="footer">
-                                        <a href="blog-single">Read More <span
-                                                class="mai-chevron-forward text-sm"></span></a>
+                                        <a href="single">Read More <span class="mai-chevron-forward text-sm"></span></a>
                                     </div>
                                 </div>
                             </div>
