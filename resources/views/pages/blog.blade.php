@@ -24,7 +24,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
                         <div class="row">
-                            <div class="col-md-6 col-lg-4 py-3">
+                            <div class="col-md-4 py-3">
                                 <div class="card-blog">
                                     <div class="header">
                                         <div class="avatar">
@@ -47,7 +47,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 col-lg-4 py-3">
+                            <div class="col-md-4 py-3">
                                 <div class="card-blog">
                                     <div class="header">
                                         <div class="avatar">
@@ -70,7 +70,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 col-lg-4 py-3">
+                            <div class="col-md-4 py-3">
                                 <div class="card-blog">
                                     <div class="header">
                                         <div class="avatar">
@@ -93,7 +93,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 col-lg-4 py-3">
+                            <div class="col-md-4 py-3">
                                 <div class="card-blog">
                                     <div class="header">
                                         <div class="avatar">
@@ -116,7 +116,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 col-lg-4 py-3">
+                            <div class="col-md-4 py-3">
                                 <div class="card-blog">
                                     <div class="header">
                                         <div class="avatar">
@@ -139,7 +139,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 col-lg-4 py-3">
+                            <div class="col-md-4 py-3">
                                 <div class="card-blog">
                                     <div class="header">
                                         <div class="avatar">
@@ -162,7 +162,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 col-lg-4 py-3">
+                            <div class="col-md-4 py-3">
                                 <div class="card-blog">
                                     <div class="header">
                                         <div class="avatar">
@@ -185,7 +185,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 col-lg-4 py-3">
+                            <div class="col-md-4 py-3">
                                 <div class="card-blog">
                                     <div class="header">
                                         <div class="avatar">
@@ -208,7 +208,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 col-lg-4 py-3">
+                            <div class="col-md-4 py-3">
                                 <div class="card-blog">
                                     <div class="header">
                                         <div class="avatar">

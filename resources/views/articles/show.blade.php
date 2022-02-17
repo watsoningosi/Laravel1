@@ -15,7 +15,7 @@
                     <div class="col-lg-8">
                         <div class="blog-single-wrap">
                             <div class="post-thumbnail">
-                                <img src="../assets/img/bg_image_1.jpg" alt="">
+                                <img src="/assets/img/bg_image_1.jpg" alt="">
                             </div>
                             <h1 class="post-title">How to growth your Business with scalable Employee</h1>
                             <div class="post-meta">
@@ -88,76 +88,6 @@
                         </div> <!-- .comment-form-wrap -->
                     </div>
 
-                    <div class="col-lg-4">
-                        <div class="widget">
-                            <div class="widget-box">
-                                <h3 class="widget-title">Search</h3>
-                                <div class="divider"></div>
-                                <form action="#" class="search-form">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control"
-                                            placeholder="Type a keyword and hit enter">
-                                        <button type="submit" class="btn"><span
-                                                class="icon mai-search"></span></button>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="widget-box">
-                                <h3 class="widget-title">Categories</h3>
-                                <div class="divider"></div>
-                                <ul class="categories">
-                                    <li><a href="#">Food <span>12</span></a></li>
-                                    <li><a href="#">Dish <span>22</span></a></li>
-                                    <li><a href="#">Desserts <span>37</span></a></li>
-                                    <li><a href="#">Drinks <span>42</span></a></li>
-                                    <li><a href="#">Ocassion <span>14</span></a></li>
-                                </ul>
-                            </div>
-
-                            <div class="widget-box">
-                                <h3 class="widget-title">Recent Blog</h3>
-                                <div class="divider"></div>
-
-                                @foreach ($articles as $article)
-                                    <div class="blog-item">
-                                        <div class="content">
-                                            <h6 class="post-title"><a
-                                                    href="/articles/{{ $article->id }}">{{ $article->title }}</a></h6>
-                                            <div class="meta">
-                                                <a href="#"><span class="mai-calendar"></span> July 12, 2018</a>
-                                                <a href="#"><span class="mai-person"></span> Admin</a>
-                                                <a href="#"><span class="mai-chatbubbles"></span> 19</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                @endforeach
-
-                            </div>
-
-                            <div class="widget-box">
-                                <h3 class="widget-title">Tag Cloud</h3>
-                                <div class="divider"></div>
-                                <div class="tagcloud">
-                                    <a href="#" class="tag-cloud-link">dish</a>
-                                    <a href="#" class="tag-cloud-link">menu</a>
-                                    <a href="#" class="tag-cloud-link">food</a>
-                                    <a href="#" class="tag-cloud-link">sweet</a>
-                                    <a href="#" class="tag-cloud-link">tasty</a>
-                                    <a href="#" class="tag-cloud-link">delicious</a>
-                                    <a href="#" class="tag-cloud-link">desserts</a>
-                                    <a href="#" class="tag-cloud-link">drinks</a>
-                                </div>
-                            </div>
-
-                            <div class="widget-box">
-                                <h3 class="widget-title">Paragraph</h3>
-                                <div class="divider"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem
-                                    necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa
-                                    sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
             </div> <!-- .container -->

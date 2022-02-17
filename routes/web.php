@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\Article;
+use App\Http\Controllers\ArticlesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,9 +37,19 @@ Route::get('/project', function () {
 });
 
 Route::get('/services', function () {
-    return view('pages.about');
+    return view('pages.services');
 });
 
+Route::get('/articles/{article}', 'App\Http\Controllers\ArticlesController@show');
+
 Route::get('/single', function () {
-    return view('pages.single');
+
+    return view(
+        'pages.single',
+
+        [
+            'articles' => App\models\Article::latest()->get()
+
+        ]
+    );
 });
