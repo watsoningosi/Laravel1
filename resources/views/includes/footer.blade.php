@@ -46,21 +46,21 @@
 </footer>
 
 
-<script src="./assets/js/jquery-3.5.1.min.js"></script>
+<script src="{{ asset('assets/js/jquery-3.5.1.min.js') }}"></script>
 
-<script src="./assets/js/bootstrap.bundle.min.js"></script>
+<script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
 
-<script src="./assets/vendor/owl-carousel/js/owl.carousel.min.js"></script>
+<script src="{{ asset('assets/vendor/owl-carousel/js/owl.carousel.min.js') }}"></script>
 
-<script src="./assets/vendor/wow/wow.min.js"></script>
+<script src="{{ asset('assets/vendor/wow/wow.min.js') }}"></script>
 
-<script src="./assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+<script src="{{ asset('assets/vendor/fancybox/js/jquery.fancybox.min.js') }}"></script>
 
-<script src="./assets/vendor/isotope/isotope.pkgd.min.js"></script>
+<script src="{{ asset('assets/vendor/isotope/isotope.pkgd.min.js') }}"></script>
 
-<script src="./assets/js/google-maps.js"></script>
+<script src="{{ asset('assets/js/google-maps.js') }}"></script>
 
-<script src="./assets/js/theme.js"></script>
+<script src="{{ asset('assets/js/theme.js') }}"></script>
 
 <script async defer
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap">

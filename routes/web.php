@@ -43,8 +43,6 @@ Route::get('/services', function () {
     return view('pages.services');
 });
 
-Route::get('/articles/{article}', 'App\Http\Controllers\ArticlesController@show');
-
 Route::get('/single', function () {
 
     return view(
@@ -56,3 +54,20 @@ Route::get('/single', function () {
         ]
     );
 });
+Route::get('/articles', 'App\Http\Controllers\ArticlesController@index');
+Route::post('/articles', 'App\Http\Controllers\ArticlesController@store');
+Route::get('/articles/create', 'App\Http\Controllers\ArticlesController@create');
+Route::get('/articles/{article}/edit', 'App\Http\Controllers\ArticlesController@edit');
+Route::get('/articles/{article}', 'App\Http\Controllers\ArticlesController@show');
+Route::put('/articles/{article}', 'App\Http\Controllers\ArticlesController@update');
+
+
+//GET, PUT, POST, DELETE
+//GET/videos
+//GET/videos/CREATE
+//GET /videos/1
+//GET/videos/1/edit
+//PUT /videos/1(UPDATE)  
+//DELETE /videos/1 
+
+//POST /VIDEOS/subscriptions => videoSubscriptionController@store  

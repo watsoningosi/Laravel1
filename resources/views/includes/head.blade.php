@@ -10,16 +10,16 @@
     <title>Revetive</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet"
         type="text/css" />
-    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href=" {{ asset('assets/css/bootstrap.css') }}">
 
-    <link rel="stylesheet" href="./assets/css/maicons.css">
+    <link rel="stylesheet" href=" {{ asset('assets/css/maicons.css') }}">
 
-    <link rel="stylesheet" href="./assets/vendor/animate/animate.css">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/animate/animate.css') }}">
 
-    <link rel="stylesheet" href="./assets/vendor/owl-carousel/css/owl.carousel.css">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/owl-carousel/css/owl.carousel.css') }}">
 
-    <link rel="stylesheet" href="./assets/vendor/fancybox/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/fancybox/css/jquery.fancybox.css') }}">
 
-    <link rel="stylesheet" href="./assets/css/theme.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/theme.css') }}">
 
 </head>
