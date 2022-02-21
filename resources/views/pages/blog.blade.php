@@ -34,7 +34,8 @@
                                             </a>
                                         </div>
                                         <div class="body">
-                                            <div class="post-title"><a href="single">{{ $article->title }}</a></div>
+                                            <div class="post-title"><a
+                                                    href="/articles/{{ $article->id }}">{{ $article->title }}</a></div>
                                             <div class="post-excerpt">{{ $article->exerpt }}</div>
                                         </div>
                                     </div>
