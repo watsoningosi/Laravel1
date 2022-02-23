@@ -8,10 +8,9 @@ use Illuminate\Http\Request;
 
 class ArticlesController extends Controller
 {
-    public function show($id)
+    public function show(Article $article)
     {
         // Show a single resource
-        $article = Article::find($id);
 
         return view('pages.show', ['article' => $article]);
     }
@@ -33,47 +32,39 @@ class ArticlesController extends Controller
         //shows a view to create a new resource(form input)
     }
 
-    protected function edit($id)
+    protected function edit(Article $article)
 
     {
-        $article = Article::find($id);
+
         //return view('articles.edit', ['article' => $article] );
         return view('articles.edit', compact('article'));
         //shows a view to edit an existing resource(form input)
     }
 
-    protected function update($id)
+    protected function update(Article $article)
 
     {
-        $article = Article::find($id);
-
-        $article->title = request('title');
-
-        $article->exerpt = request('exerpt');
-
-        $article->body = request('body');
-
-        $article->save();
+        $validatedAttributes = request()->validate([
+            'title' => 'required', //['required', 'min:3', 'max:255'],
+            'body' => 'required',
+            'exerpt' => 'required',
+        ]);
 
 
-        return redirect('/blog');
+        return redirect('/articles/' . $article->id);
         // persist the edited existing resource(form input)
     }
 
     protected function store()
 
     {
+        $validatedAttributes = request()->validate([
+            'title' => 'required', //['required', 'min:3', 'max:255'],
+            'body' => 'required',
+            'exerpt' => 'required',
+        ]);
 
-        /**$article = new Article();
-
-        $article->title = request('title');
-
-        $article->exerpt = request('exerpt');
-
-        $article->body = request('body');
-
-        $article->save();
-         **/
+        Article::create($validatedAttributes);
 
         return redirect('/blog');
 
