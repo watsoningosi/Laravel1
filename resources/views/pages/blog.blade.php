@@ -29,7 +29,7 @@
                                 <div class="col-md-4 py-3">
                                     <div class="card-blog">
                                         <div class="avatar1">
-                                            <a href="/articles/{{ $article->id }}">
+                                            <a href="{{ route('articles.show', $article->id) }}">
                                                 <img src="../assets/img/teams/team_1.jpg" class="img-responsive" alt="">
                                             </a>
                                         </div>

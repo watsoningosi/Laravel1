@@ -51,7 +51,7 @@ class ArticlesController extends Controller
         ]);
 
 
-        return redirect('/articles/' . $article->id);
+        return redirect($article->path());
         // persist the edited existing resource(form input)
     }
 
