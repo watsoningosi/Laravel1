@@ -41,17 +41,21 @@ class ArticlesController extends Controller
         //shows a view to edit an existing resource(form input)
     }
 
-    protected function update(Article $article)
+    protected function update($id)
 
     {
-        $validatedAttributes = request()->validate([
-            'title' => 'required', //['required', 'min:3', 'max:255'],
-            'body' => 'required',
-            'exerpt' => 'required',
-        ]);
+        $article = Article::find($id);
+
+        $article->title = request('title');
+
+        $article->exerpt = request('exerpt');
+
+        $article->body = request('body');
+
+        $article->save();
 
 
-        return redirect($article->path());
+        return redirect('/blog');
         // persist the edited existing resource(form input)
     }
 

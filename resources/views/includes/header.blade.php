@@ -52,7 +52,7 @@
                             <a href="project" accesskey="4" class="nav-link">Projects</a>
                         </li>
                         <li class="{{ Request::path() === 'blog' ? 'active' : '' }}">
-                            <a href="blog" accesskey="5" class="nav-link">News</a>
+                            <a href="blog" accesskey="5" class="nav-link">Blog</a>
                         </li>
                         <li class="{{ Request::path() === 'contact' ? 'active' : '' }}">
                             <a href="contact" accesskey="6" class="nav-link">Contact</a>
